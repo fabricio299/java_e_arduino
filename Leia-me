@@ -1,0 +1,35 @@
+Para que o programa funcione corretamente deve-se adicionar à biblioteca do projeto o arquivo RXTXcomm.jar
+Clique butão direito encima de Bibliotecas
+Adicionar JAR/Pasta
+Procure o arquivo RXTXcomm.jar na pasta raiz do projeto e clique em abrir
+pronto a primeira parte estara comprida
+
+
+primeiro passo
+
+copie e cole o arquivo RXTXcomm.jar no diretorio 
+se windows 32bits
+C:\Program Files (x86)\Java\jre1.8.0_131\lib\ext
+ou se for windows 64bits
+C:\Program Files\Java\jre1.8.0_131\lib\ext
+
+
+
+
+
+Segunda passo
+
+copie o arquivo rxtxSerial.dll nos seguintes diretorios do windows,
+C:\Windows\System32
+C:\Windows\SysWOW64
+
+e tambem nas pastas do Java JRE
+C:\Program Files (x86)\Java\jdk1.8.0_131\bin Se for o windows de 32bits copie nesse caminho
+C:\Program Files\Java\jdk1.8.0_131\bin Se for Windows de 64bits copie nesse caminho
+
+O mesmo vale para esses diretorios
+
+C:\Program Files (x86)\Java\jre1.8.0_131\bin
+C:\Program Files\Java\jre1.8.0_131\bin
+
+feito isso o programa ira rodar sem erro
